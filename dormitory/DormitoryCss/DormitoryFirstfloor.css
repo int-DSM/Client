@@ -3,14 +3,8 @@
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/TmonMonsori.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-}
-
-@font-face {
-    font-family: 'Noto Sans KR';
-    font-style: normal;
-    font-weight: normal;
-    src: url(https://fonts.gstatic.com/s/notosanskr/v13/Pby6FmXiEBPT4ITbgNA5CgmOsn7tqoAetwxcvEcQNuukkRBBEIyMcFQ.0.woff2) format('woff2');
-}
+  }
+body,button,dd,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,input,legend,li,ol,p,select,table,td,textarea,th,ul{margin:0;padding:0}
 
 nav {
 width: 100%;
@@ -66,30 +60,4 @@ margin-left: 691px;
 margin-left: 100px;
 color: #FFFFFF;
 font-family: 'Noto Sans KR', sans-serif;
-}
-
-#content {
-    width: 100%;;
-}
-
-#floor {
-    margin-top: 384px;
-}
-
-.floor {
-    display: block;
-    margin-left: 765px;
-    font-size: 30px;
-    color: #FFFFFF;
-    margin-bottom: 75px;
-    font-family: 'Noto Sans KR';
-}
-
-#floor_img {
-    width: 1358.73;
-    height: 828.28;
-    position: absolute;
-    left: 281px;
-    z-index: -1;
-    top: 25%;
 }
