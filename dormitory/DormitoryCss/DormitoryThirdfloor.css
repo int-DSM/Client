@@ -82,16 +82,16 @@ body {
 
 #floorPlan {
   margin-left: 444px;
-  margin-bottom: 35px;
+  margin-bottom: 34px;
 }
 
 #explanation {
-  width: 1060px;
+  width: 1097px;
   height: 135px;
   margin-left: 430px;
   font-size: 26px;
   font-family: 'Noto Sans KR';
   color: #707070;
-  word-spacing: 2.5mm;
+  word-spacing: 1mm;
   line-height: 15mm;
 }
