@@ -1,0 +1,85 @@
+@font-face {
+  font-family: 'TmonMonsori';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/TmonMonsori.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+body,button,dd,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,input,legend,li,ol,p,select,table,td,textarea,th,ul{margin:0;padding:0}
+nav{
+  width: 100%;
+  height: 104px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+nav{
+  display: flex;
+  width: 100%;
+  height: 80px;
+  background-color: #7B73FE;
+}
+a{
+  text-decoration: none;
+}
+nav > a{
+  font-size: 26px;
+}
+section{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.navLeftBox{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin-left: 180px;
+}
+.navLeftBox > a{
+  color: #FFFFFF;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+.navRigthBox{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin-left: 691px;
+}
+.navRigthBox >a{
+  margin-left: 100px;
+  color: #FFFFFF;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+.majorWebBox > h2, .majorAppBox > h2,.majorAIBox > h2, .majorEmbeddedBox > h2,  .majorGameBox > h2, .majorSecurityBox > h2{
+  font-family: 'Noto Sans KR Bold', sans-serif;
+  font-size: 36px;
+  color: #707070;
+}
+.majorWebImg{
+  width: 100%;
+  height: 140px; 
+}
+.secondBox, .thridBox{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 51px;
+}
+.majorAppBox,.majorEmbeddedBox,.majorGameBox,.majorSecurityBox,.majorAIBox{ 
+  margin-left: 180px;
+  margin-top: 36px;
+}
+.majorWebBox{
+  margin-right: 45px;
+  margin-top: 36px;
+}
+.majorEmbeddedBox{
+  margin-left: 357px;  
+}
