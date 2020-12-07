@@ -13,11 +13,18 @@ nav{
     display: flex;
     flex-direction: row;
     align-items: center;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+#logo {
+    margin-top: 3px;
+    width: 60px;
+    height: 60px;
 }
 
 html,body{
     height: 1080px;
-    width: 1920px;
+    width: 100%;
     margin: 0;
     padding: 0;
 }

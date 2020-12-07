@@ -20,6 +20,11 @@ html,body{
   padding: 0;
   overflow: hidden;
 }
+#logo {
+  margin-top: 3px;
+  width: 60px;
+  height: 60px;
+}
 nav{
   display: flex;
   width: 100%;

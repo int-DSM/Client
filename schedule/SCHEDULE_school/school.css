@@ -12,6 +12,12 @@ html, body{
     background-color: #7B73FE;
   }
 
+  #logo {
+    margin-top: 3px;
+    width: 60px;
+    height: 60px;
+  }
+
   a{
     text-decoration: none;
   }
