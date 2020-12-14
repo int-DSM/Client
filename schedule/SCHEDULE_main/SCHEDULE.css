@@ -16,6 +16,12 @@ html, body{
     text-decoration: none;
   }
 
+  #logo {
+    margin-top: 3px;
+    width: 60px;
+    height: 60px;
+  }
+
   nav > a{
     font-size: 26px;
   }

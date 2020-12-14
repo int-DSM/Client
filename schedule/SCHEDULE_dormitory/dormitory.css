@@ -20,6 +20,12 @@ html, body{
     font-size: 26px;
   }
 
+  #logo {
+    margin-top: 3px;
+    width: 60px;
+    height: 60px;
+  }
+
   .navLeftBox{
     height: 100%;
     display: flex;
