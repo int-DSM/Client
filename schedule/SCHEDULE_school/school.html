@@ -3,10 +3,14 @@
 <head>
     <link rel="stylesheet" href="school.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="../reset.css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700&display=swap" rel="stylesheet">
     <title>INT_DSM</title>
 </head>
 <body>
+  <nav class="nav">
+    <div class="navLeftBox">
+      <a href="#">LOGO</a>
     <nav>
         <div class="navLeftBox">
           <a href="../../main/MainHtml/INT_DSM_Main.html">
@@ -25,13 +29,25 @@
     <div class="page_name">
       <p>학교</p>
     </div>
-    <div class="schedule">
-      <img src="../ScheduleImg/학교시간표(1).png">
-      <img src="../ScheduleImg/학교시간표(2).png">
+    <div class="navRigthBox">
+      <a href="#">학과</a>
+      <a href="#">동아리</a>
+      <a href="#">시간표</a>
+      <a href="#">기숙사</a>
+      <a href="#">급식</a>
     </div>
-    <div class="back_img">
-      <img src="../ScheduleImg/시간_학교.png">
-    </div>
-    </section>
+  </nav>
+  <section style="height: calc(100% - 80px);">
+  <div class="page_name">
+    <p>학교</p>
+  </div>
+  <div class="schedule">
+    <img src="../ScheduleImg/학교시간표(1).png" id = "school_1">
+    <img src="../ScheduleImg/학교시간표(2).png" id = "school_2">
+  </div>
+  <div class="back_img">
+    <img src="../ScheduleImg/시간_학교.png" id = "back_img ">
+  </div>
+  </section>
 </body>
 </html>
