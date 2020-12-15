@@ -1,3 +1,62 @@
+html, body{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+nav{
+  display: flex;
+  width: 100%;
+  height: 80px;
+  background-color: #7B73FE;
+}
+
+#logo {
+  margin-top: 3px;
+  width: 60px;
+  height: 60px;
+}
+
+a{
+  text-decoration: none;
+}
+
+nav > a{
+  font-size: 26px;
+}
+
+.navLeftBox{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin-left: 180px;
+}
+
+.navLeftBox > a{
+  color: #FFFFFF;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.navRigthBox{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin-left: 691px;
+}
+
+.navRigthBox > a{
+  margin-left: 100px;
+  color: #FFFFFF;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.page_name{
+  font-family: 'Noto Sans KR', bold;
+  font-size: 36px;
+  margin-left: 180px;
+}
+
 @font-face {
   font-family: 'TmonMonsori';
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/TmonMonsori.woff') format('woff');
@@ -58,25 +117,26 @@ nav > a{
 }
   
 .schedule{
-  height: calc(100% - 72px);
+  margin-top: 60px;
   display: flex;
   justify-content: space-between;
-  margin-left: 200px;
+  margin-left: 385px;
   flex-direction: column;
 }
 
 #school_1{
   margin: 0px 10px 0px 55px;
-  width: 450px;
-  height: 400px;
+  width: 600px;
+  height: 450px;
 }
 
 #school_2{
-  width: 554px;
-  height: 466px;
+  margin-top: 124px;
+  width: 600px;
+  height: 460px;
   position: absolute;
   right: 0;
-  margin-right: 100px;
+  margin-right: 180px;
 }
 
 .back_img{
@@ -90,3 +150,4 @@ nav > a{
   width: 200px;
   height: 150px;
 }
+
