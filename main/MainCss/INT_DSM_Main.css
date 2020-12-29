@@ -3,8 +3,22 @@
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/TmonMonsori.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-  }
+}
+
 body,button,dd,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,input,legend,li,ol,p,select,table,td,textarea,th,ul{margin:0;padding:0}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#logo {
+    margin-top: 3px;
+    width: 60px;
+    height: 60px;
+  }
 
 nav{
     width: 100%;
@@ -13,20 +27,6 @@ nav{
     display: flex;
     flex-direction: row;
     align-items: center;
-    font-family: 'Noto Sans KR', sans-serif;
-}
-
-#logo {
-    margin-top: 3px;
-    width: 60px;
-    height: 60px;
-}
-
-html,body{
-    height: 1080px;
-    width: 100%;
-    margin: 0;
-    padding: 0;
 }
 
 nav{
@@ -50,62 +50,64 @@ nav > a{
     align-items: center;
     margin-left: 180px;
 }
-
+  
 .navLeftBox > a{
     color: #FFFFFF;
     font-family: 'Noto Sans KR', sans-serif;
 }
-
+  
 .navRigthBox{
     height: 100%;
     display: flex;
     align-items: center;
     margin-left: 691px;
 }
-
-.navRigthBox > a{
+  
+.navRigthBox >a{
     margin-left: 100px;
     color: #FFFFFF;
     font-family: 'Noto Sans KR', sans-serif;
 }
 
-#explanation {
+#header {
     width: 100%;
-    margin-top: 58px;
+    height: 80px;
+    background-color: black;
 }
 
-#explanation > p {
-    width: 1165px;
-    text-align: left;
-    margin-left: 378px;
-    font-size: 26px;
-    font-family: 'Noto Sans KR', sans-serif;
-    color: #707070;
+.content {
+    margin: 0;
+    float: left;
+    display: flex;
 }
 
-#images {
-    margin-top: 8px;
+#title {
+    width: 650px;
+    height: 197px;
+    color: #6C63FF;
+    font-size: 148px;
+    font-family: 'TmonMonsori';
+    margin-top: 211px;
+    margin-left: 180px;
+    margin-bottom: 0;
 }
 
-#img1 {
-    margin-left: 310px;
+.content img{
+    width: 1182px;
+    height: 1000px;
+    margin-left: -125px;
 }
 
-#img2 {
-    margin-left: 555px;
+#text_content {
+    width: 666px;
+    height: 194px;
+    font-family: 'TmonMonsori';
+    font-size: 49px;
+    margin-top: 35px;
+    margin-left: 180px;
 }
 
-#img3 {
-    position: absolute;
-    left: 790px;
-    top: 465px;
-}
-
-#imglast{
-    margin-top: 90px;
-    margin-left: 310px;
-}
-
-#img5 {
-    margin-left: 555px;
+.purple {
+    color: #6C63FF;
+    display: inline;
 }
